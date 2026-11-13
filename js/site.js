@@ -107,3 +107,21 @@ if (finePointer && !reducedMotion) {
     });
   });
 }
+
+// Pausa os loops decorativos quando a seção sai da tela, para não gastar CPU/GPU à toa.
+if (!reducedMotion && 'IntersectionObserver' in window) {
+  const loopSections = document.querySelectorAll('.hero, .maps-section, .project-note, .closing');
+  const pauseObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => entry.target.classList.toggle('is-paused', !entry.isIntersecting));
+  }, { rootMargin: '120px 0px' });
+  loopSections.forEach(section => pauseObserver.observe(section));
+}
+
+// "Voltar ao topo" e marca do cabeçalho: sobe ao topo de forma previsível (o #topo é o header sticky, que deixava o scroll incompleto).
+document.querySelectorAll('a[href="#topo"]').forEach(link => {
+  link.addEventListener('click', event => {
+    event.preventDefault();
+    window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' });
+    history.replaceState(null, '', window.location.pathname + window.location.search);
+  });
+});

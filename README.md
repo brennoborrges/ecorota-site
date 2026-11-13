@@ -1,4 +1,4 @@
-# EcoRota — Salvador Mais Verde (versão 2)
+# EcoRota — Salvador Mais Verde (versão 4)
 
 Site estático responsivo, em português, para apresentar os três mapas do projeto EcoRota.
 
