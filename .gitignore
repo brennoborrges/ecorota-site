@@ -1,0 +1,16 @@
+# Sistema operacional e editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Dependências e builds (o site não usa, mas evita subir por engano)
+node_modules/
+dist/
+
+# Arquivos compactados e segredos
+*.zip
+*.rar
+.env
+.env.*
