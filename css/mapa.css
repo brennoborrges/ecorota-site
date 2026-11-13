@@ -1,0 +1,126 @@
+.map-page{background:#f5f4ec}.map-shell{max-width:1440px;margin:auto;padding:48px 40px 90px}.map-heading{display:flex;justify-content:space-between;align-items:end;padding:8px 0 35px}.back-link{font-size:11px;font-weight:700;color:#66806b;display:inline-block;margin-bottom:35px}.dark-eyebrow{color:#68855e;margin-bottom:13px}.map-heading h1{font:700 clamp(40px,5vw,60px)/1.05 Manrope,sans-serif;letter-spacing:-.07em;color:#103b2b;margin:0 0 15px}.map-heading h1 em,.map-method h2 em{font-family:Georgia,serif;font-weight:400;color:#6d974b}.map-heading>div:first-child>p:last-child{max-width:600px;font-size:13px;line-height:1.7;color:#69766c;margin:0}.map-counts{display:flex;gap:24px;padding-bottom:7px}.map-counts span{font-size:10px;color:#738074}.map-counts b{display:block;font:700 28px Manrope;color:#103b2b}.map-workspace{display:grid;grid-template-columns:365px minmax(0,1fr);min-height:660px;border:1px solid #d4ddd1;background:#fff;box-shadow:0 18px 50px #153d2510}.map-sidebar{padding:24px 20px 18px;display:flex;flex-direction:column;min-height:660px;border-right:1px solid #dce3d9}.search-label{font:700 12px Manrope;color:#203c2d;margin-bottom:9px}.search-wrap{height:44px;border:1px solid #d5ded3;display:flex;align-items:center;padding:0 11px;gap:8px;background:#fbfcf8}.search-wrap>span{font-size:23px;color:#71917a}.search-wrap input{border:0;outline:0;background:transparent;width:100%;font:12px 'DM Sans';color:#203c2d}.search-wrap input::placeholder{color:#9aa59a}.search-wrap button{border:0;background:none;font-size:20px;color:#68806b;cursor:pointer}.filter-row{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 20px}.filter-chip{border:1px solid #d9e1d7;background:white;color:#536356;padding:7px 9px;font-size:10px;font-weight:700;cursor:pointer;transition:background .2s,border .2s}.filter-chip span{color:#8d9a8e;margin-left:4px}.filter-chip.active{background:#103b2b;color:white;border-color:#103b2b}.filter-chip.active span{color:#d4e3c6}.results-heading{display:flex;justify-content:space-between;border-bottom:1px solid #e0e6de;padding-bottom:10px;font:800 8px Manrope;letter-spacing:.13em;color:#748273}.results-heading span:last-child{letter-spacing:0;font-weight:600}.place-list{overflow:auto;max-height:440px;padding-right:4px}.place-item{width:100%;display:grid;grid-template-columns:32px 1fr auto;gap:10px;text-align:left;padding:13px 5px;border:0;border-bottom:1px solid #edf0e9;background:white;cursor:pointer;transition:background .2s}.place-item:hover,.place-item:focus-visible{background:#f2f7ef;outline:0}.place-icon{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-size:12px}.place-icon.area_verde{background:#e4efdc;color:#3d7438}.place-icon.ecoponto{background:#dcefee;color:#247d85}.place-icon.galpao_residuos{background:#f8e9d8;color:#a96a2d}.place-item strong{font:700 11px/1.35 Manrope;color:#203b2c;display:block}.place-item small{font-size:10px;color:#849085;display:block;margin-top:4px}.place-code{font:800 8px Manrope;color:#91a091;padding-top:3px}.loading-state,.empty-state{font-size:12px;color:#7b887d;padding:24px 6px;line-height:1.6}.data-note{margin-top:auto;padding:14px 12px;background:#f1f5ec;display:flex;gap:10px}.data-note>span{width:17px;height:17px;flex:0 0 auto;border:1px solid #8da889;border-radius:50%;display:grid;place-items:center;color:#527b4c;font-size:10px}.data-note p{font-size:9px;line-height:1.55;color:#69786a;margin:0}.data-note b{color:#3b5a3c;font-size:10px}.map-stage{position:relative;min-width:0;min-height:660px;background:#e2e9dd}#map{width:100%;height:100%;min-height:660px;z-index:1}.map-legend{position:absolute;z-index:500;left:16px;top:16px;display:flex;gap:13px;padding:10px 13px;background:rgba(255,255,250,.95);box-shadow:0 3px 15px #183b2416;font-size:9px;color:#4d6252}.map-legend span{display:flex;align-items:center;gap:5px}.legend-dot{width:8px;height:8px;border-radius:50%}.legend-dot.green{background:#4f8a46}.legend-dot.blue{background:#2b8990}.legend-dot.orange{background:#c17a35}.map-attribution-note{position:absolute;bottom:7px;left:10px;z-index:400;background:#ffffffd9;padding:4px 7px;font-size:8px;color:#647268}.leaflet-container{font-family:'DM Sans',sans-serif}.leaflet-popup-content-wrapper{border-radius:2px}.leaflet-popup-content{font-size:11px;line-height:1.6;color:#4f5d52}.leaflet-popup-content b{font:700 13px Manrope;color:#153c2c}.leaflet-popup-content .popup-meta{font-size:9px;color:#829080;margin-top:4px}.leaflet-popup-content .popup-warning{margin-top:8px;padding:7px;background:#f5f2e8;color:#796c4e;font-size:9px}.custom-marker{border:2px solid white;border-radius:50%;width:24px;height:24px;box-shadow:0 2px 8px #14321f55;display:grid;place-items:center;color:white;font:800 9px Manrope}.custom-marker.area_verde{background:#4f8a46}.custom-marker.ecoponto{background:#2b8990}.custom-marker.galpao_residuos{background:#c17a35}.map-method{padding:100px 4px 0;display:grid;grid-template-columns:1fr 1.1fr;gap:70px;max-width:950px;margin:auto}.map-method h2{font:650 37px/1.12 Manrope;letter-spacing:-.06em;color:#103b2b;margin:0}.map-method>div:last-child p{font-size:12px;line-height:1.85;color:#68756a;margin:0 0 16px}.map-method .text-action{max-width:240px}.map-nav{gap:30px}.map-nav .nav-cta{padding:12px 16px}
+@media(max-width:900px){.map-shell{padding:35px 22px 70px}.map-workspace{grid-template-columns:310px 1fr}.map-sidebar{padding:18px 14px}.map-counts{gap:14px}.map-method{padding-top:75px;gap:35px}}
+@media(max-width:680px){.map-shell{padding:25px 14px 55px}.map-heading{display:block;padding-bottom:24px}.back-link{margin-bottom:23px}.map-heading h1{font-size:43px}.map-counts{margin-top:22px}.map-workspace{display:flex;flex-direction:column}.map-stage{order:1;min-height:430px}.map-stage #map{min-height:430px;height:430px}.map-sidebar{order:2;min-height:0;border-right:0;border-top:1px solid #dce3d9}.place-list{max-height:390px}.data-note{margin-top:18px}.map-legend{gap:8px;left:8px;top:8px;padding:8px;font-size:8px}.map-method{display:block;padding:65px 8px 0}.map-method>div:last-child{margin-top:24px}.map-nav{display:none}.site-footer{margin-top:0}}
+
+
+/* Integração visual do mapa interativo com a página principal. */
+.map-shell { animation: map-page-in 650ms cubic-bezier(.22,.8,.24,1) both; }
+.map-heading { gap: 24px; }
+.back-link { transition: color 180ms ease, transform 260ms cubic-bezier(.22,.8,.24,1); }
+.back-link:hover { color: #2b8990; transform: translateX(-3px); }
+.map-workspace { border-radius: 4px; overflow: hidden; box-shadow: 0 22px 60px rgba(21,61,37,.09); }
+.search-wrap { transition: border-color 220ms ease, box-shadow 220ms ease, background 220ms ease; }
+.search-wrap:focus-within { border-color: #659b8c; background: #fff; box-shadow: 0 0 0 3px rgba(43,137,144,.10); }
+.search-wrap input:focus-visible { outline: none; }
+.filter-chip { border-radius: 2px; transition: color 200ms ease, background 240ms ease, border-color 240ms ease, transform 240ms cubic-bezier(.22,.8,.24,1); }
+.filter-chip:hover { border-color: #8ba98a; transform: translateY(-1px); }
+.filter-chip.active { box-shadow: 0 3px 9px rgba(16,59,43,.12); }
+.place-item { position: relative; }
+.place-item::after { content: ""; position: absolute; left: 0; top: 9px; bottom: 9px; width: 2px; background: #2b8990; transform: scaleY(0); transition: transform 240ms cubic-bezier(.22,.8,.24,1); }
+.place-item:hover::after, .place-item:focus-visible::after { transform: scaleY(1); }
+.place-item:focus-visible { outline: 2px solid #8ab7ae; outline-offset: -2px; }
+.custom-marker { transition: transform 220ms cubic-bezier(.22,.8,.24,1), box-shadow 220ms ease; }
+.custom-marker:hover { transform: scale(1.13); box-shadow: 0 4px 14px rgba(20,50,31,.35); }
+.map-legend { border: 1px solid rgba(16,59,43,.08); border-radius: 3px; backdrop-filter: blur(10px); }
+.data-note { border-left: 2px solid #9db783; }
+.map-method { position: relative; }
+.map-method::before { content: ""; position: absolute; left: 0; top: 68px; width: 1px; height: 62px; background: linear-gradient(#9bb68e, transparent); }
+@keyframes map-page-in { from { opacity: 0; translate: 0 10px; } to { opacity: 1; translate: 0 0; } }
+@media (prefers-reduced-motion: reduce) { .map-shell { animation: none; } }
+
+/* V4 — página de mapa integrada à linguagem editorial do EcoRota. */
+.map-shell {
+  max-width: 1340px;
+  padding: 42px 42px 82px;
+  animation: map-shell-arrive 980ms cubic-bezier(.16,1,.3,1) both;
+}
+@keyframes map-shell-arrive {
+  from { opacity: 0; transform: translate3d(0,18px,0); filter: blur(5px); }
+  to { opacity: 1; transform: translate3d(0,0,0); filter: blur(0); }
+}
+.map-heading { gap: 30px; padding-bottom: 28px; }
+.map-heading h1 { letter-spacing: -.065em; }
+.map-workspace {
+  grid-template-columns: 340px minmax(0,1fr);
+  min-height: 590px;
+  border: 1px solid rgba(16,59,43,.13);
+  border-radius: 3px;
+  box-shadow: 0 18px 54px rgba(21,61,37,.075);
+  overflow: hidden;
+}
+.map-sidebar { min-height: 590px; padding: 22px 19px 16px; background: #fbfaf5; }
+.place-list { max-height: 360px; }
+.map-stage { min-height: 590px; background: #e8ece3; }
+#map { min-height: 590px; }
+/* Base cartográfica mais suave: deixa os marcadores e os dados legíveis sem competir com a marca. */
+.leaflet-tile-pane { filter: saturate(.76) contrast(.96) brightness(1.015); }
+.leaflet-control-zoom a {
+  color: #315c45 !important;
+  border-color: #dce4d8 !important;
+  background: rgba(250,250,244,.94) !important;
+  transition: background 240ms, color 240ms;
+}
+.leaflet-control-zoom a:hover { background: #e7efdf !important; color: #103b2b !important; }
+.map-legend-inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 2px 0 15px;
+  margin: 0 0 13px;
+  border-bottom: 1px solid #e6eae2;
+  color: #627164;
+  font-size: 9px;
+}
+.map-legend-inline span { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.map-legend-inline .legend-dot { width: 7px; height: 7px; }
+.custom-marker {
+  width: 22px;
+  height: 22px;
+  box-shadow: 0 2px 6px rgba(20,50,31,.22);
+  transition: transform 420ms cubic-bezier(.34,1.42,.64,1), box-shadow 320ms ease;
+}
+.custom-marker:hover { transform: scale(1.14); box-shadow: 0 4px 12px rgba(20,50,31,.32); }
+.place-item {
+  animation: result-appear 560ms cubic-bezier(.16,1,.3,1) both;
+  animation-delay: calc(var(--item-index, 0) * 24ms);
+  transition: background 360ms cubic-bezier(.16,1,.3,1), padding-left 360ms cubic-bezier(.16,1,.3,1);
+}
+.place-item:hover { padding-left: 9px; }
+.filter-chip {
+  border-radius: 2px;
+  transition: color 340ms, background 420ms cubic-bezier(.16,1,.3,1), border-color 340ms, box-shadow 420ms, transform 420ms cubic-bezier(.34,1.42,.64,1);
+}
+.filter-chip.active { box-shadow: 0 5px 14px rgba(16,59,43,.12); }
+.search-wrap { min-height: 46px; }
+.search-wrap:focus-within { box-shadow: 0 0 0 4px rgba(43,137,144,.09); }
+.data-note { border-left: 2px solid #9db783; border-radius: 0 2px 2px 0; }
+.map-method { padding-top: 90px; }
+.map-method h2 { letter-spacing: -.065em; }
+.map-method .text-action { transition: color 320ms, padding-left 420ms cubic-bezier(.16,1,.3,1); }
+.map-method .text-action:hover { padding-left: 5px; }
+@keyframes result-appear {
+  from { opacity: 0; transform: translate3d(0,9px,0); filter: blur(3px); }
+  to { opacity: 1; transform: translate3d(0,0,0); filter: blur(0); }
+}
+@media (max-width: 900px) {
+  .map-shell { padding-left: 26px; padding-right: 26px; }
+  .map-workspace { grid-template-columns: 300px minmax(0,1fr); min-height: 560px; }
+  .map-sidebar { min-height: 560px; }
+  .map-stage, #map { min-height: 560px; }
+}
+@media (max-width: 680px) {
+  .map-shell { padding: 28px 16px 58px; }
+  .map-workspace { display: flex; flex-direction: column; min-height: 0; }
+  .map-stage { order: 1; min-height: 410px; }
+  .map-stage #map { min-height: 410px; height: 410px; }
+  .map-sidebar { order: 2; min-height: 0; }
+  .place-list { max-height: 350px; }
+  .map-legend-inline { padding-top: 0; }
+  .map-method { padding-top: 64px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .map-shell { animation: none; }
+  .place-item { animation: none; }
+  .custom-marker { transition: none; }
+}
